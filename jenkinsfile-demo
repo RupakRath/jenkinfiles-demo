@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage('practice'){
+            steps{
+                git 'https://github.com/javahometech/myweb'
+            }
+        }
+    }
+}
